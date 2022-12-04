@@ -1,0 +1,57 @@
+[debug] [2022-12-04T14:18:14.660Z] ----------------------------------------------------------------------
+[debug] [2022-12-04T14:18:14.664Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\GEN2022\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-12-04T14:18:14.665Z] CLI Version:   11.16.1
+[debug] [2022-12-04T14:18:14.665Z] Platform:      win32
+[debug] [2022-12-04T14:18:14.665Z] Node Version:  v19.2.0
+[debug] [2022-12-04T14:18:14.666Z] Time:          Sun Dec 04 2022 22:18:14 GMT+0800 (China Standard Time)
+[debug] [2022-12-04T14:18:14.666Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-04T14:18:14.794Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-04T14:18:14.795Z] > authorizing via signed-in user (stephenestenzo59@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\GEN2022\Downloads\shibasocialsclubs.org
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-12-04T14:18:30.436Z] Using project from CLI flag: shibassocialclub
+[debug] [2022-12-04T14:18:30.442Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/shibassocialclub [none]
+[debug] [2022-12-04T14:18:31.232Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/shibassocialclub 200
+[debug] [2022-12-04T14:18:31.233Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/shibassocialclub {"projectId":"shibassocialclub","projectNumber":"753399343382","displayName":"shibasocialclub","name":"projects/shibassocialclub","resources":{"hostingSite":"shibassocialclub"},"state":"ACTIVE","etag":"1_1c3f071c-b41e-4646-abf2-6a1ef032f431"}
+[info] i  Using project shibassocialclub (shibasocialclub) 
+[info] 
+=== Hosting:github Setup
+[info] 
+[info] i  Didn't detect a .git folder. Assuming C:\Users\GEN2022\Downloads\shibasocialsclubs.org is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=324223418&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-12-04T14:18:55.673Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2022-12-04T14:18:55.673Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2022-12-04T14:18:56.361Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2022-12-04T14:18:56.361Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2022-12-04T14:18:56.372Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2022-12-04T14:18:56.888Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2022-12-04T14:18:56.889Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"Skiddedz","id":93816911,"node_id":"U_kgDOBZeITw","avatar_url":"https://avatars.githubusercontent.com/u/93816911?v=4","gravatar_id":"","url":"https://api.github.com/users/Skiddedz","html_url":"https://github.com/Skiddedz","followers_url":"https://api.github.com/users/Skiddedz/followers","following_url":"https://api.github.com/users/Skiddedz/following{/other_user}","gists_url":"https://api.github.com/users/Skiddedz/gists{/gist_id}","starred_url":"https://api.github.com/users/Skiddedz/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Skiddedz/subscriptions","organizations_url":"https://api.github.com/users/Skiddedz/orgs","repos_url":"https://api.github.com/users/Skiddedz/repos","events_url":"https://api.github.com/users/Skiddedz/events{/privacy}","received_events_url":"https://api.github.com/users/Skiddedz/received_events","type":"User","site_admin":false,"name":"DevOps","company":null,"blog":"","location":"1337 127.0.0.1","email":null,"hireable":null,"bio":"hi im fanboy of all skids🥵","twitter_username":null,"public_repos":4,"public_gists":0,"followers":0,"following":0,"created_at":"2021-11-06T07:55:21Z","updated_at":"2022-12-04T14:18:46Z","private_gists":0,"total_private_repos":10,"owned_private_repos":10,"disk_usage":312937,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as Skiddedz 
+[info] 
